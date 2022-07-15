@@ -9,11 +9,12 @@ h1{
 }
 .job-interest{border:solid gray 1px}
 .container-header{
-    background-color: aqua;
+    background-color: rgb(139, 102, 102);
     border-style: groove;
     border-color: black;
     border-width: 5px;
 }
-.container, .red{
-    border: 1px solid red;
+.one{
+    margin-top: 20px;
 }
+
