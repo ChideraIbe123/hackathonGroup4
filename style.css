@@ -1,4 +1,30 @@
 body{
     background-color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align: center;
+}
+
+h1{
+    text-align: center;
     font-family: 'Fredoka One', cursive;
+}
+.job-interest{border:solid gray 1px}
+
+.container-header{
+    background-color: aqua;
+    border-style: groove;
+    border-color: black;
+    border-width: 5px;
+}
+
+#game{
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    width:60%;
+    margin: 0 auto;
+    padding:15px;
+}
+.quiz-img {
+    float:right;
 }
