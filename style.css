@@ -7,6 +7,7 @@ h1{
     text-align: center;
     font-family: 'Fredoka One', cursive;
 }
+.job-interest{border:solid gray 1px}
 .container-header{
     background-color: aqua;
     border-style: groove;
