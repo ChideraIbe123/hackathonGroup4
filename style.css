@@ -1,5 +1,16 @@
 body{
     background-color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+h1{
+    text-align: center;
     font-family: 'Fredoka One', cursive;
 }
 .job-interest{border:solid gray 1px}
+.container-header{
+    background-color: aqua;
+    border-style: groove;
+    border-color: black;
+    border-width: 5px;
+}
