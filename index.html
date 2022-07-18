@@ -5,18 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time to Collaborate</title>
-    <link rel="stylesheet" href="style.css">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+
     <!-- Collaborator #1: Create a header for the webpage-->
-<h1>Header For Our Website!</h1>
+    <div class="header">
+        <h1>Header For Our Website!</h1>
+    </div>
     <!-- Collaborator #2: Find an image to add to the webpage -->
 
     <img src="https://via.placeholder.com/150">
@@ -26,12 +33,36 @@
 
 
     <!-- Collaborator #3: Add a link to the webpage -->
-    <a href="https://www.google.com">button>Click me</button>
-        
+    <!-- <a href="https://www.google.com">button>Click me</button> -->
+
     <!-- All Collaborators: Add some text to the page-->
-<div>
-    <script src="script.js"></script>
-</div>
+    <div>
+
+    </div>
+
+    <section class="game container">
+        <div class="row">
+            <img src="https://via.placeholder.com/150" alt="placeholder">
+
+        </div>
+        <div class="row">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et vitae possimus optio facere earum
+                laboriosam ipsam rem delectus, deserunt in obcaecati mollitia nobis! Vero delectus aliquid enim
+                aliquam dolorem aperiam?</p>
+        </div>
+        <div class="row">
+            <div class="col-6 "><button type="button" class="btn btn-success w-50" id="myBtn-1">Yes</button></div>
+            <div class="col-6 "><button type="button" class="btn btn-danger w-50">No</button></div>
+        </div>
+        <div class="row">
+            <div class="col-3"><button type="button" class="btn btn-success w-50 hidden">Yes</button></div>
+            <div class="col-3"><button type="button" class="btn btn-danger w-50 hidden">No</button></div>
+            <div class="col-3"><button type="button" class="btn btn-success w-50">Yes</button></div>
+            <div class="col-3"><button type="button" class="btn btn-danger w-50">No</button></div>
+
+        </div>
+    </section>
+    <script src="./script.js"></script>
 </body>
 
 </html>
