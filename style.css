@@ -23,8 +23,12 @@ h1{
     border: 1px solid black;
     width:60%;
     margin: 0 auto;
-    padding:15px;
 }
+
+#allbuttons{
+    text-align: center;
+}
+
 .quiz-img {
     float:right;
 }
