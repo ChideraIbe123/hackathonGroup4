@@ -37,7 +37,7 @@ h1{
 <<<<<<< HEAD
 }
 
-#allbuttons{
+.allbuttons{
     text-align: center;
 }
 
@@ -51,4 +51,3 @@ h1{
 .one{
     margin-top: 20px;
 }
-
