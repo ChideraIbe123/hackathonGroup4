@@ -90,7 +90,3 @@ function showbutton6(){
     ssb11.style.display = "block";
     ssb12.style.display = "block";
 }
-
-
-
-
