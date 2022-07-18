@@ -8,6 +8,17 @@ h1{
     text-align: center;
     font-family: 'Fredoka One', cursive;
 }
+<<<<<<< HEAD
+=======
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: inline;
+}
+>>>>>>> main
 .job-interest{border:solid gray 1px}
 
 .container-header{
@@ -23,12 +34,17 @@ h1{
     border: 1px solid black;
     width:60%;
     margin: 0 auto;
+<<<<<<< HEAD
 }
 
 #allbuttons{
     text-align: center;
 }
 
+=======
+    padding:15px;
+}
+>>>>>>> main
 .quiz-img {
     float:right;
 }
